@@ -1,3 +1,4 @@
+console.log('clo1')
 //CLO1: JavaScript:
 
 let studentArray = Array(10)
@@ -9,7 +10,7 @@ console.log(studentArray.length)
 console.log(studentArray)
 
  
-
+console.log('clo2')
 //CLO2: JavaScript:
 
 let studentArray = Array.of(10)
@@ -21,7 +22,7 @@ console.log(studentArray.length)
 console.log(studentArray)
 
  
-
+console.log('clo3')
 //CLO3: JavaScript:
 
 let grades = [90,98,78,99]
@@ -35,7 +36,7 @@ console.log(studentGrades.length)
 console.log(studentGrades)
 
  
-
+console.log('clo4')
 //CLO4: JavaScript:
 
 let grades = [90,98,78,99]
@@ -48,7 +49,7 @@ let studentGrades = Array.from(grades, function(g){
 console.log(studentGrades)
 
  
-
+console.log('clo5')
 //CLO5: JavaScript:
 
 let grades = [90,98,78,99]
@@ -61,7 +62,7 @@ let studentGrades = Array.from(grades, g=>{
 console.log(studentGrades)
 
  
-
+console.log('clo6')
 //CLO6: JavaScript:
 
 let grades = [90,98,78,99]
@@ -72,7 +73,7 @@ let studentGrades = grades.find(v=> v== 90)
 console.log(studentGrades)
 
  
-
+console.log('clo7')
 //CLO7: JavaScript:
 
 let grades = [90,98,78,99]
@@ -83,7 +84,7 @@ let studentGrades = grades.find(v => v >= 90)
 console.log(studentGrades)
 
  
-
+console.log('clo8')
 //CLO8: JavaScript:
 
 let grades = [90,98,78,99]
@@ -94,8 +95,8 @@ let studentGrades = grades.map(v => v * .0 90)
 console.log(studentGrades)
 
  
-
-CLO9: JavaScript:
+console.log('clo9')
+//CLO9: JavaScript:
 
 let grades = [90,98,78,99]
 let studentGrades = ...grades
@@ -105,7 +106,7 @@ let studentGrades = ...grades
 console.log(studentGrades)
 
  
-
+console.log('clo10')
 //CLO10: JavaScript:
 
 let student = {name:'John Masson'}
@@ -121,7 +122,7 @@ people.set(adjunct, "Adjunct")
 console.log(people)
 
  
-
+console.log('clo11')
 //CLO11: JavaScript:
 
 let student = {name:'John Masson'}
@@ -138,7 +139,7 @@ people.delete(student)
 console.log(people)
 
  
-
+console.log('clo12')
 //CLO12: JavaScript:
 
 let student = {name:'John Masson'}
@@ -155,7 +156,7 @@ people.clear()
 console.log(people)
 
  
-
+console.log('clo13')
 //CLO13: JavaScript:
 
 let student = {name:'John Masson'}
@@ -172,7 +173,7 @@ let result = people.has(student);
 console.log(result)
 
  
-
+console.log('clo14')
 //CLO14: JavaScript:
 
 let student = {name:'John Masson'}
@@ -189,7 +190,7 @@ let result = people.keys(student);
 console.log(result)
 
  
-
+console.log('clo15')
 //CLO15: JavaScript:
 
 let student = {name:'John Masson'}
@@ -206,7 +207,7 @@ let result = people.values(student);
 console.log(result)
 
  
-
+console.log('clo16')
 //CLO16: JavaScript:
 
 let student = {name:'John Masson'}
@@ -229,7 +230,7 @@ console.log(people.size)
 console.log(people.size)
 
  
-
+console.log('clo17')
 //CLO17: JavaScript:
 
 let student = {name:'John Masson'}
@@ -246,8 +247,8 @@ people.add(adjunct)
 console.log(people.size)
 
  
-
-CLO17: JavaScript:
+console.log('clo17')
+//CLO17: JavaScript:
 
 let students =[ {name:'John Masson'}, {name:'Don Vasco'}, {name:'Mary Landley'}
 let people = new Set(students)
