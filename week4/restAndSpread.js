@@ -5,9 +5,9 @@ var result = ...studentGrades
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(result)
+ console.log(result)
 
-b) console.log(result is instanceof array)
+ console.log(result is instanceof array)
 
  
 
@@ -18,7 +18,7 @@ var result = ...myGrade
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(result)
+ console.log(result)
 
  
 
@@ -29,7 +29,7 @@ var maxGrade = Math.Max(...studentGrades)
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(maxGrade)
+ console.log(maxGrade)
 
  
 
@@ -40,7 +40,7 @@ var gradeArray = [...studentGrades]
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(gradeArray)
+ console.log(gradeArray)
 
  
 
@@ -50,7 +50,7 @@ let studentGrades = [ ...[ , , ]]
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(studentGrades)
+ console.log(studentGrades)
 
  
 
@@ -60,7 +60,7 @@ let myhouseNumber = [..."8976"]
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(Math.max(myhouseNumber))
+ console.log(Math.max(myhouseNumber))
 
  
 
@@ -70,7 +70,7 @@ let myhouseNumber = [..."8976", "AB", "CDEF"]
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(Math.max(myhouseNumber))
+ console.log(Math.max(myhouseNumber))
 
  
 
@@ -87,7 +87,7 @@ var studentInfo = {
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(studentInfo)
+ console.log(studentInfo)
 
  
 
@@ -104,7 +104,7 @@ var studentInfo = {
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(studentInfo)
+ console.log(studentInfo)
 
  
 
@@ -128,7 +128,7 @@ var result = studentInfo.currentAge()
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(studentInfo)
+ console.log(studentInfo)
 
  
 
@@ -152,7 +152,7 @@ var result = studentInfo.age()
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(studentInfo)
+ console.log(studentInfo)
 
  
 
@@ -176,7 +176,7 @@ var result = studentInfo.[ "ageOf Student"] ( )
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(studentInfo)
+ console.log(studentInfo)
 
 
 //CLO11: JavaScript: Object Literals
@@ -196,4 +196,4 @@ student.Name = "Harry Potter";
 
 //Question: What is the value shown up in the console for the following statements?
 
-a) console.log(student.Name); 
+ console.log(student.Name); 
