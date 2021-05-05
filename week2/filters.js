@@ -60,5 +60,7 @@ let cars = [
       "capacity": 7
     }
 ]
- var items = cars.filter(car=> car.color === "red" && car.color ==="green")
+ var items = cars.filter(car=>  car.color ==="green" || car.color ==="red")
+//  var items1 = cars.filter(car=>  car.color ==="red")
 console.log(items);
+// console.log(items1)
