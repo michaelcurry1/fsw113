@@ -67,17 +67,7 @@ for(let i = 0; i < people.length; i++){
   character.textContent = people[i].name
   document.body.appendChild(character)
 
-  // for(let i = 0; i < height.length; i++){
-  // const character1 = document.createElement('h1')
-  // character1.textContent = height[i].name
-  // document.body.appendChild(character1)
 
-  // for(let i = 0; i < films.length; i++){
-  // const character2 = document.createElement('h1')
-  // character2.textContent = films[i].name
-  // document.body.appendChild(character2)
-  // }
-  // }
 }
 }
 ).catch(err=>{
