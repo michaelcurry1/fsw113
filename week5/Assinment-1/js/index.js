@@ -46,7 +46,8 @@ $(document).ready(function() {
 
   function displayResults(results) {
    
-    resultList.text(JSON.stringify(results));
+    resultList.text(JSON.stringify("name: " + results.name+" " + "height: " + results.height+" " + "films: " + results.films));
+    //resultList.textContent = "hello"
 
 
   }
